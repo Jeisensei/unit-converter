@@ -1,0 +1,64 @@
+/*Declaring the color variables from darkest to lightest*/
+:root {
+    --darkest-green: #064E3B;
+    --dark-green: #059669;
+    --light-green: #6EE7B7;
+    --lightest-green: #D1FAE5;
+    --whiteish: #ECFDF5;
+}
+
+body {
+    margin: 25px;
+    width: 550px;
+    text-align: center;
+}
+
+#head-container {
+    background: var(--dark-green);
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+h2{
+    padding-top: 10px;
+    margin: 10px 0px 20px 0px;
+}
+
+#input {
+    width: 95px;
+    height: 60px;
+    background: var(--dark-green);
+    border: 2px solid var(--light-green);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#convert-btn {
+    padding: 10px 20px;
+    background: var(--whiteish);
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    
+}
+
+#body-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--light-green);
+    margin-top: 0px;
+    height: 420px
+}
+
+.result {
+    margin-top: 0px;
+    background: var(--lightest-green);
+    width: 500px;
+    height: 27%;
+    border-radius: 2px;
+}
